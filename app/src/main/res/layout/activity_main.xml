@@ -20,8 +20,10 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_below="@+id/imageView"
-        android:gravity="center">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
 
         <TextView
@@ -55,10 +57,11 @@
                 android:text="Sign In"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView2"
-                android:id="@+id/button"
+                android:id="@+id/sign_in_button"
                 android:background="@color/colorAccent"
                 android:layout_marginTop="20dp"
                 android:layout_weight=".75"
+                android:onClick="goToLoginScreen"
                 android:layout_width="0dip"/>
             </LinearLayout>
 
